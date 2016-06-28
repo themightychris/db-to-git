@@ -38,4 +38,12 @@ people.data/
 
 ## Questions
 
-- It should be safe to assume or just require that table and column names contain only characters safe for filenames in git. Primary key values will offer no such guarantees though. In target applications, primary keys should be "slug"-like which would work well -- but how can that be enforced as a constraint or something like a `/` coming up in a primary key value be handled?
+- What if primary key values contain nasty characters like `/`?
+  - It should be safe to assume or just require that table and column names contain only characters safe for filenames in git
+  - Primary key values will offer no such guarantees
+  - In target applications, primary keys should be "slug"-like which would work well
+  - How can that be enforced as a constraint or something like a `/` coming up in a primary key value be handled?
+  - Do we just need a lossless-but-still-readable encoding scheme?
+- What about tables that don't have primary keys?
+  - Oh well skip them?
+  - Use the hash of a record's subtree as its name in the table's tree with a number appended for duplicates as needed?
