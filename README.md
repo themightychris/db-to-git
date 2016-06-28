@@ -31,6 +31,9 @@ people.data/
     headshot.jpg
 ```
 
+## Implementation thoughts
+
+This should probably be a Node.js CLI tool that uses the [js-git](https://github.com/creationix/js-git) library to construct git trees in memory without needing to invoke the git cli thousands of times.
 
 ## Prior art
 
