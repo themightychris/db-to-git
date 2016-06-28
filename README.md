@@ -9,7 +9,7 @@ Schema data is written to YAML files, and optional properties can be added manua
 
 ## Project Status
 
-Idea / thought experiment
+Idea / thought experiment. This repository is mostly just for questions / examples / research at this point.
 
 ## Directory Structure Mockup
 
