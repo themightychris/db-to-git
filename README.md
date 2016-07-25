@@ -35,8 +35,9 @@ people.data/
 
 This should probably be a Node.js CLI tool that uses the [js-git](https://github.com/creationix/js-git) library to construct git trees in memory without needing to invoke the git cli thousands of times.
 
-## Prior art
+## Related efforts & prior art
 
+- [dangit](https://github.com/chriswhong/dangit/): DAta Nudged into GIT - File-based datasets that use git for version control of individual records
 - [dbtoyaml](http://pgxn.org/dist/pyrseas/docs/dbtoyaml.html): dump PostgreSQL schema to YAML
 
 ## Questions
