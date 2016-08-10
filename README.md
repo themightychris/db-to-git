@@ -39,6 +39,7 @@ This should probably be a Node.js CLI tool that uses the [js-git](https://github
 
 - [dangit](https://github.com/chriswhong/dangit/): DAta Nudged into GIT - File-based datasets that use git for version control of individual records
 - [dbtoyaml](http://pgxn.org/dist/pyrseas/docs/dbtoyaml.html): dump PostgreSQL schema to YAML
+- [noms](https://github.com/attic-labs/noms): Noms is a decentralized database based on ideas from Git.
 
 ## Questions
 
