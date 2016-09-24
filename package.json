@@ -1,0 +1,31 @@
+{
+  "name": "db-to-git",
+  "version": "0.1.0",
+  "description": "Dump your database into git",
+  "main": "./bin/db2git.js",
+  "bin": {
+    "db2git": "./bin/db2git.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themightychris/db-to-git.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themightychris/db-to-git/issues"
+  },
+  "homepage": "https://github.com/themightychris/db-to-git#readme",
+  "dependencies": {
+    "JSONStream": "^1.1.4",
+    "dotenv": "^2.0.0",
+    "knex": "^0.11.10",
+    "meow": "^3.7.0",
+    "pg": "^6.0.3",
+    "pg-query-stream": "^1.0.0",
+    "through2": "^2.0.1",
+    "vinyl-fs": "^2.4.3"
+  }
+}
